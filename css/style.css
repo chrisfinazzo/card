@@ -1,0 +1,29 @@
+:root {
+  --primary: Arial, sans-serif;
+  --secondary: Times New Roman, Times, Baskerville, Georgia, serif; 
+}
+
+@page {
+  height: 2in;
+  width: 3in;
+}
+
+@media print {
+.card, .me {
+  white-space: nowrap;
+}
+
+.me {
+  font-family: var(--primary);
+  font-weight: bold;
+  font-style: normal;
+}
+
+.tagline, .email, .site, .phone {
+  font-family: var(--secondary);
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+}
+
+}
