@@ -17,6 +17,7 @@
   font-family: var(--primary);
   font-weight: bold;
   font-style: normal;
+  text-align: center;
 }
 
 .tagline, .email, .site, .phone {
